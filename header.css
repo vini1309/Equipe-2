@@ -198,7 +198,6 @@ header ul li img{
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	border-top: 3px solid black;
-	margin: 3% 0;
 }
 .produtos > * {
     display: inline-block;
@@ -219,6 +218,47 @@ header ul li img{
 	border: 2px solid black;
 	background-color: #fff;
 }
+
+footer {
+	
+	background-color: #eee;
+	justify-content: center;
+	display: flex;
+	
+}
+
+footer div {
+	width: 30%;
+
+}
+
+footer ul {
+	list-style: none;
+	padding-top: 15px;
+}
+
+footer li{
+	padding: 2px 0;
+}
+
+footer li a{
+	text-decoration: none;
+	color: #2e7bcf;
+	font-weight: bold;
+}
+
+footer li a:hover{
+	color: #333;
+}
+
+.rodape{
+	padding: 20px 0;
+}
+
+footer span{
+	font-size: 25px;
+}
+
 
 @media screen and (max-width: 768px) {
 	.produto {
@@ -277,3 +317,4 @@ header ul li img{
 
 
 }
+
