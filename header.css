@@ -95,7 +95,7 @@ nav ul li a:hover {
 		text-decoration: none;
 		padding: 2px;
 
-	} 
+	}
 	.icon a:hover{
 		color: #000;
 	}
@@ -129,7 +129,7 @@ header ul li img{
 	/*display: block;
  	margin:0 auto; */
 	-webkit-align-items: center;
-	
+
 
 	text-align: center;
 	padding: 40px;
@@ -167,13 +167,13 @@ header ul li img{
 	display: inline;
 	margin: 0px;
 	border: 0px;
-	padding:0px; 
+	padding:0px;
 }*/
 
 
 .produtos {
     padding: 0% 10%;
-    background-color:  #2e7bcf;
+    background-color: #2e7bcf;
     border-top: 2px solid black;
     border-bottom: 3px solid black;
 }
@@ -187,6 +187,7 @@ header ul li img{
 	color: #fff;
 	border-radius: 10%;
 	border: 1px solid black;
+	margin-bottom: 20px;
 }
 
 .produto {
