@@ -292,9 +292,10 @@ footer span{
 		float: left;
 
 	}
-	header ul li img{
-		margin: 0 25%;
-		width: 30%;
+
+	header img{
+		float: left;
+		height: 79px;
 	}
 	.icon:hover a{
 		display: block;
@@ -312,10 +313,10 @@ footer span{
 	}
 	#logomenor {
 		display: inline-block;
-		height: 79px;
-		width: 230px;
-		margin-left: 25%;
+
 	}
+
+
 
 
 }
