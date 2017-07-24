@@ -20,25 +20,49 @@ header {
 	position: fixed;
 }
 
-.menu ul li a {
-	color: #2e7bcf;
-	font-weight: bold;
-	text-decoration: none;
-	padding-bottom: 10px;
+.head {
+	width: 100%;
+	display: flex;
 }
 
-.menu ul li {
-	display: inline-block;
-	float: right;
-	margin:  0 30px;
-}
-
-.menu ul li:first-child {
+.head:first-child {
 	float: left;
 }
 
-#logo img {
+.logoImg {
 	height: 99px;
+
+	display: inline-block;
+}
+
+.head img {
+	height: 100%;
+}
+
+.head nav {
+	margin: auto;
+	display: inline-block;
+}
+
+.head ul li {
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	margin:  0 30px;
+}
+
+.head ul li:hover {
+	border: 2px solid #2e7bcf;
+}
+
+.head ul li a {
+	color: #2e7bcf;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.head ul li a:hover {
+	color: #000;
 }
 
 .banner {
