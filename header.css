@@ -7,14 +7,6 @@
 	padding: 0;
 }
 
-header .icon {
-	display: none;
-	padding: 23px 4%;
-	border-right: 1px solid #333;
-	height: 100%;
-}
-
-
 html, body{
 	width: 100%;
 	height: 100%;
@@ -22,98 +14,40 @@ html, body{
 
 header {
 	background-color: #eee;
-	height: 80px;
+	height: 100px;
 	width: 100%;
 	border-bottom: 1px solid #333;
 	position: fixed;
-	top: 0;
 }
 
-#bannerimage {
-	  width: 100%;
-	  background-image: url();
-	  height: 27%;
-	  max-height: 600px;
-	  background-color: purple;
-	  background-position: center;
-}
-
-
-nav ul li a {
+.menu ul li a {
 	color: #2e7bcf;
 	font-weight: bold;
 	text-decoration: none;
 	padding-bottom: 10px;
 }
 
-nav ul li a:hover {
-	color: #333;
-}
-
-.menu ul li:not(#logo) {
+.menu ul li {
 	display: inline-block;
-	list-style: none;
+	float: right;
+	margin:  0 30px;
+}
+
+.menu ul li:first-child {
 	float: left;
-	font-size: 1em;
-	padding: 3%;
-	width: auto;
 }
 
-#logomenor{
-	display: none;
-}
-@media screen and (max-width: 670px) {
-	.menu ul li:not(#logo){
-		display: none;
-		position: absolute;
-
-	}
-	#logo{
-		display: none;
-	}
-	header .icon{
-		display: inline;
-		float: left;
-
-	}
-	header ul li img{
-		margin: 0;
-		width: 75%;
-	}
-	.icon:hover a{
-		display: block;
-	}
-	.icon a {
-		display: none;
-	}
-	.icon:hover a{
-		display: block;
-		border: 1px solid #333;
-		background-color: #eee;
-		color: #2e7bcf;
-		border-collapse: collapse;
-		text-decoration: none;
-		padding: 2px;
-
-	} 
-	.icon a:hover{
-		color: #000;
-	}
-	#logomenor {
-		display: inline;
-		height: 79px;
-		width: 45%;
-	}
-
-
-
+#logo img {
+	height: 99px;
 }
 
+.banner {
+	margin-top: 300px;
+	background-color: blue;
+}
 
-
-header ul li img{
-	float: left;
-	height: 79px;
+.banner p {
+	font-size: 300px;
 }
 
 .mem{
@@ -129,7 +63,7 @@ header ul li img{
 	/*display: block;
  	margin:0 auto; */
 	-webkit-align-items: center;
-	
+
 
 	text-align: center;
 	padding: 40px;
@@ -138,7 +72,6 @@ header ul li img{
 	border: 0px 0px;
 	height: 200px;
 	width: 200px;
-
 }
  .membro {
 	display: inline-block;
@@ -167,7 +100,7 @@ header ul li img{
 	display: inline;
 	margin: 0px;
 	border: 0px;
-	padding:0px; 
+	padding:0px;
 }*/
 
 
@@ -213,7 +146,6 @@ header ul li img{
 
 }
 
-
 .circle {
 	border-radius: 50%;
 	border: 2px solid black;
@@ -235,45 +167,4 @@ header ul li img{
 	.produtos {
 		margin: 0 -5%;
 	}
-}
-
-@media screen and (min-width: 670px) and (max-width: 980px) {
-	.menu ul li:not(#logo){
-		display: none;
-
-	}
-	#logo{
-		display: none;
-	}
-	header .icon{
-		display: inline;
-		float: left;
-
-	}
-	header ul li img{
-		margin: 0 25%;
-		width: 30%;
-	}
-	.icon:hover a{
-		display: block;
-		border: 1px solid #333;
-		background-color: #eee;
-		color: #2e7bcf;
-		border-collapse: collapse;
-		text-decoration: none;
-		padding: 2px;
-
-
-	}
-	.icon a {
-		display: none;
-	}
-	#logomenor {
-		display: inline-block;
-		height: 79px;
-		width: 230px;
-		margin-left: 25%;
-	}
-
-
 }
